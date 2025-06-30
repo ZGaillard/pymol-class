@@ -1,0 +1,80 @@
+/* General reset and font */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 40px auto;
+  max-width: 800px;
+  color: #333;
+  background-color: #fafafa;
+  padding: 0 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #005f73;
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  border-left: 4px solid #0a9396;
+  padding-left: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+/* Lists */
+ul {
+  margin-left: 1.5em;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Code blocks */
+code {
+  background-color: #eee;
+  font-family: monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Emphasis */
+strong {
+  color: #9b2226;
+}
+
+em {
+  font-style: italic;
+}
+
+/* Blockquote (if needed) */
+blockquote {
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #e0fbfc;
+  border-left: 5px solid #3a86ff;
+  color: #333;
+}
+
+/* Deadline highlight */
+.deadline {
+  background-color: #ffddd2;
+  border-left: 4px solid #e63946;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+}
